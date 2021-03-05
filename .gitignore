@@ -6,6 +6,7 @@ project.lock.json
 nupkg/
 appsettings.json
 *.db
+/node_modules
 
 # Visual Studio Code
 .vscode
