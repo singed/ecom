@@ -40,7 +40,7 @@ namespace API.Controllers
         [HttpGet("badrequest")]
         public ActionResult GetBadRequest()
         {
-            return BadRequest();
+            return BadRequest(new ApiResponse((int)HttpStatusCode.BadRequest));
         }
         
         [HttpGet("badrequest/{id}")]
